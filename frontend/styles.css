@@ -275,16 +275,7 @@ p {
   width: 15rem;
   aspect-ratio: 1;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background:
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.32), transparent 34%),
-    linear-gradient(145deg, #0e2e22, #00a86b);
-  color: #ffffff;
-  font-size: 3.2rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  object-fit: cover;
   border: 6px solid rgba(255, 255, 255, 0.9);
 }
 
